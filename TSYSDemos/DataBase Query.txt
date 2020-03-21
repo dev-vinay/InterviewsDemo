@@ -1,0 +1,16 @@
+﻿USE [TSYSDemo]
+GO
+
+UPDATE [dbo].[CreditCardAccount]
+   SET [CreditLimit] = 200500
+ WHERE Outstanding >= 100 AND Outstanding<= 100000
+GO
+
+
+SELECT TOP (1000) [Number]
+      ,[CardBrand]
+      ,[HolderId]
+      ,[Outstanding]
+      ,[Balance]
+      ,[CreditLimit]
+  FROM [TSYSDemo].[dbo].[CreditCardAccount]
