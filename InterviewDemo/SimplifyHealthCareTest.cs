@@ -8,6 +8,7 @@ namespace InterviewDemo {
 
         public int[] GetSelctionChances(int noOfStudents, int[] marks) {
             try {
+
                 int[] results = new int[noOfStudents];
                 int counter = 0;
                 int j = 0;

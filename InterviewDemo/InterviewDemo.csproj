@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessModeifiersDemo.cs" />
+    <Compile Include="AmazonTest.cs" />
+    <Compile Include="CitiBank.cs" />
+    <Compile Include="Nice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimplifyHealthCareTest.cs" />
